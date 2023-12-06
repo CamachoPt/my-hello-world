@@ -1,0 +1,36 @@
+{
+  "name": "@CamachoPt/my-hello-world",
+  "version": "1.2.109",
+  "main": "src/index.js",
+  "author": "AC",
+  "license": "MIT",
+  "repository": "git://github.com/CamachoPt/my-hello-world.git",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build"
+  },
+  "devDependencies": {
+    "react": "18.1.0",
+    "react-dom": "18.1.0",
+    "react-scripts": "^5.0.1"
+  },
+  "peerDependencies": {
+    "react": "18.1.0",
+    "react-dom": "18.1.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
